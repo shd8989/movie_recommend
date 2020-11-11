@@ -1,0 +1,304 @@
+<div class="social ">
+<ul class="social-networks">
+<li><a class="social-icon" href="http://facebook.com">Facebook</a></li>
+<li><a class="social-icon" href="http://plus.google.com">Google Plus</a></li>
+<li><a class="social-icon" href="http://twitter.com">Twitter</a></li>
+<li><a class="social-icon" href="http://instagram.com">Instagram</a></li>
+<li><a class="social-icon" href="http://linkedin.com">Linkedin</a></li>
+</ul>
+</div>
+
+#sp-bottom2 .sp-module ul >li >a {
+    display: block;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    padding-left: 8px;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+#sp-bottom2 .sp-module ul >li >a:hover {
+  background:#fff;
+}
+
+a {
+  color: #eb1436;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #eb1436;
+}
+#sp-bottom2 span,
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #eb1436;
+}
+#offcanvas-toggler >i:hover {
+  color: #eb1436;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #0faae4;
+  background-color: #eb1436;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #0d8ab9;
+  background-color: #0e9cd1;
+}
+.social-links>a,
+ul.social-icons >li a:hover {
+  color: #eb1436;
+}
+.sp-page-title {
+  background: #eb1436;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a:hover {
+  color: #eb1436;
+}
+.sp-module .letestnews >div >a {
+  color: #000000;
+}
+.sp-module .letestnews >div >a:hover {
+  color: #eb1436;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #eb1436;
+}
+.sp-simpleportfolio .sp-simpleportfolio-fiater > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-fiater > ul > li > a:hover {
+  background: #eb1436;
+}
+.search .btn-toolbar button {
+  background: #eb1436;
+}
+.post-formet {
+  background: #eb1436;
+}
+.voting-symbol span.star.active:before {
+  color: #eb1436;
+}
+.sp-reting span.star:hover:before,
+.sp-reting span.star:hover ~ span.star:before {
+  color: #0e9cd1;
+}
+.entry-link,
+.entry-quote {
+  background: #eb1436;
+}
+.at-team-item,
+blockquote {
+  border-color: #eb1436;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #eb1436;
+}
+#sp-footer {
+  background: #eb1436;
+}
+.sp-comingsoon body {
+  background-color: #eb1436;
+}
+.paginetion>li>a,
+.paginetion>li>span {
+  color: #000000;
+}
+.paginetion>li>a:hover,
+.paginetion>li>a:focus,
+.paginetion>li>span:hover,
+.paginetion>li>span:focus {
+  color: #000000;
+}
+.paginetion>.active>a,
+.paginetion>.active>span {
+  border-color: #eb1436;
+  background-color: #eb1436;
+}
+.paginetion>.active>a:hover,
+.paginetion>.active>a:focus,
+.paginetion>.active>span:hover,
+.paginetion>.active>span:focus {
+  border-color: #eb1436;
+  background-color: #eb1436;
+}
+
+.at-intro-item:hover i,
+.at-feature-item:hover i,
+.at-portfolio-button:hover,
+.at-action-button:hover,
+.at-table-item:hover button,
+#at-pricing .single-table:nth-child(2) {
+  background: #eb1436;
+}
+.at-about-content-item i,
+.at-title h2,
+.at-intro-item i,
+.at-table-item h3,
+.at-service-item h4,
+ .at-title b,
+.at-service-item i:hover,
+.at-table-item .table-price .price,
+.at-table-item button:hover a,
+.at-testimonial button {
+  color: #eb1436; 
+}
+.at-feature-item:hover i,
+.at-portfolio-button:hover,
+.at-action-button:hover,
+.at-table-item:hover,
+.at-service-item .button-service,
+.at-table-item button,
+.at-subscribe-content table .button:hover {
+  border-color: #eb1436;
+}
+/* Important */
+.at-slider .tp-caption  b,
+.at-about h4,
+.at-service-item:hover i,
+.at-service-item h3:hover,
+.at-feature-item i,
+.at-about-content i,
+.at-team-item .social-links a,
+.at-title h3 b,
+#at-service .qx-btn-default:hover,
+.at-button-general:hover,
+#at-pricing .qx-btn:hover,
+#at-contact .qx-btn:hover,
+.at-service-item:hover i,
+.at-title h5,
+.at-title-about h3 span,
+#sp-bottom2 h1,
+.at-slider .tp-caption a:hover,
+ul.movie-info li,
+#sp-bottom .sp-module .sp-module-title,
+ul.show-times li.today i,
+.at-blog div.k2ItemsBlock ul li a,
+.at-services-item:hover i,
+.at-services-item:hover h4 {
+  color: #eb1436!important; 
+}
+#at-pricing .at-pricing-item .single-table .table-heading .amount,
+#at-pricing .at-pricing-item .single-table .table-heading .curency {
+  color: #eb1436;
+}
+
+.at-contact #sp-quickcontact-form .button:hover,
+.projects-fiater a.selected,
+ .at-why-chose-item i,
+ .at-counter,
+ #at-testimonial .button:hover,
+ #at-feature .at-button:hover,
+.at-service-item .button-service,
+ .at-we-do-item .qx-progress-bar,
+ .at-allowing,
+.vm-button-correct, 
+span.addtocart-button input.addtocart-button,
+#at-pricing .at-pricing-item .single-table:nth-child(2),
+.at-we-do-item i,
+ html input[type=button],
+ input[type=submit],
+.at-course-sub .course-info span a, 
+.at-contact-item i,
+.ariQuizQuestionTitle,
+.at-pricing-sub-2:nth-child(2) .single-table,
+.btn.btn-primary,
+#at-pricing .qx-btn,
+#offcanvas-toggler,
+.projects-filter a.selected, .projects-filter a.selected:hover,
+#at-contact .qx-btn,
+.at-contact-form button {
+  background: #eb1436!important;  
+}
+.project-wrapper .btn-go-back,
+.at-title-business,
+.btn-primary,
+#at-pricing .qx-btn,
+#at-contact .qx-btn,
+.at-discount-sub,
+.slick-next, .slick-prev,
+.at-newsletter-left,
+.sppb-btn-primary,
+.btn.btn-primary,
+.btn-success,
+.at-cinema-overlay .rate,
+.projects-filter a:hover,
+.at-slider .tp-caption .at-slider-button {
+  background-color:#eb1436!important;  
+}
+#at-pricing .single-table,
+.at-contact #sp-quickcontact-form .button:hover,
+.at-service-item:hover,
+.vm-button-correct, 
+span.addtocart-button input.addtocart-button,
+.at-contact-item i,
+ html input[type=button],
+ input[type=submit],
+.at-service-item,
+.at-course-sub,
+.btn-primary, 
+#at-pricing .qx-btn,
+#at-contact .qx-btn,
+.sppb-btn-primary,
+#jevents_body .cal_today a.cal_daylink:hover,
+.sp-megamenu-parent >li.active>a, 
+.sp-megamenu-parent >li:hover>a, 
+.sp-contact-info li,
+.btn-success,
+.at-title-boder:before,
+.at-we-do-item i {
+  border-color: #eb1436!important; 
+}
+.projects-wrapper .project-img .project-img-extra {
+    background-image: -webkit-linear-gradient(top , #eb143654 0%, #eb143680 100%)!important;
+}
+.at-about-item h3 {
+   color: #eb143645!important
+}
+.btn.btn-primary,
+#at-pricing .qx-btn,
+#at-contact .qx-btn {
+    border: 2px solid #eb1436!important;
+}
+.team-overlay ,
+.at-cinema-overlay {
+    background-color: #eb1436b5;
+}
+.at-pricing-sub-2:nth-child(2) .single-table {
+    background: #eb14369e!important;
+}
+/*** Jevent ***/
+.nav-items > div:first-child {
+    border-left: 1px solid #eb1436;
+}
+.nav-items > div {
+    border: 1px solid #eb1436; 
+}
+.nav-items > div:last-child {
+    border-right: 1px solid #eb1436;
+}
+#jevents_body .nav-items > div a:hover {
+   border-left:1px solid #eb1436;
+}
+.jev_toprow div.previousmonth, .jev_toprow div.nextmonth {
+    background-color: #eb1436;
+    border: 1px solid #eb1436;
+}
+.jev_toprow div.previousmonth, .jev_toprow div.nextmonth {
+    background-color: #eb1436!important;
+    border: 1px solid #eb1436!important;
+}
+#jevents_body .nav-items div.active a, .jev_header2 .active a,
+#jevents_body .cal_today a.cal_daylink {
+   background-color: #eb1436!important;
+}
+.jev_toprow div.currentmonth {
+    border-top: 1px solid #eb1436;
+    border-bottom: 1px solid #eb1436;
+    margin-bottom: -1px;
+}
+#jevents_body .nav-items div.active a:hover, 
+.jev_header2 .active a:hover {
+  border-left: 1px solid #eb1436!important;
+}
