@@ -4,8 +4,10 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import com.movierec.model.MovieEntity;
+
 @Mapper
 public interface MainMapper {
 	
-	List<String> selectMainList(String param1);
+	List<MovieEntity> selectMovieList(String param1);
 }

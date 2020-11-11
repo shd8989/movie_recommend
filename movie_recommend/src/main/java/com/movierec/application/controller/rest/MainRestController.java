@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.movierec.application.service.MainService;
+import com.movierec.model.MovieEntity;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -16,8 +17,8 @@ public class MainRestController {
 	@Autowired
 	MainService mainService;
 	
-	@RequestMapping("/main")
-	public List<String> selectMainList(@RequestParam(value="param1", required=false) String param1) {
-		return mainService.selectMainList(param1);
+	@RequestMapping("/movie")
+	public List<MovieEntity> selectMovieList(@RequestParam(value="param1", required=false) String param1) {
+		return mainService.selectMovieList(param1);
 	}
 }

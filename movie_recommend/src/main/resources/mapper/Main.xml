@@ -2,29 +2,11 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="net.bitnine.lh.db.mapper.LhMapper">
+<mapper namespace="com.movierec.db.mapper.MainMapper">
     
-    <select id="selectMainList" parameterType="map" resultType="String">
-        match (k:vt_keyword) - [r:edg_in_policy] -> (p:vt_policy)
-		where 1=1
-		<if test='policyKeyword != null and policyKeyword != ""'>
-		AND k.noun = #{policyKeyword}
-		</if>
-        <if test='fromDate != null and fromDate != ""'>
-        AND p.report_date <![CDATA[ >= ]]> to_date(#{fromDate}, 'YYYY-MM-DD')
-        </if>
-        <if test='toDate != null and toDate != ""'>
-        AND p.report_date <![CDATA[ <= ]]> to_date(#{toDate}, 'YYYY-MM-DD')
-        </if>
-		return
-			p.policy_id AS policyId,
-			p.policy_name AS policyName,
-			p.organizer,
-			p.report_date AS reportDate,
-			p.url,
-			p.contents,
-			r.weight
-		order by weight desc
-		skip ${offset} limit ${row}
+    <select id="selectMovieList" parameterType="map" resultType="MovieEntity">
+        match(v:vt_movies)
+        return v.title, v.rating, v.movieid as movieId, v.avg_rating as avgRating
+        limit 5
     </select>
 </mapper>
